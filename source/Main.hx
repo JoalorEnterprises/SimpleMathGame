@@ -9,6 +9,8 @@ class Main extends Sprite
 	{
 		super();
 
+		FlxG.save.bind('MathGame');
+
 		addChild(new FlxGame(1280, 720, MenuState));
 	}
 }
